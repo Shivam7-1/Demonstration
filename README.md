@@ -4,7 +4,7 @@ Encapsulation Code and discription
 
 package encla;
 
-public class Student {
+    public class Student {
 
 		private int age;
 		private String name;
@@ -23,14 +23,15 @@ public class Student {
   
   package encla;
 
-public class encapsulation {
-	public static void main(String[] args) {
-Student obj= new Student();
-  obj.setAge(21);
-  System.out.println(obj.getAge());
-   }
+     public class encapsulation {
+	 
+	 public static void main(String[] args) {
+        Student obj= new Student();
+         obj.setAge(21);
+    System.out.println(obj.getAge());
+     }
 
-}
+    }
 
 ****Encapsulation
 Principle: encapsulation in java is a process of Wrap[ping Code and data in a single unit. In 
@@ -44,15 +45,15 @@ data store.
 
 package polymorphism;
 
-public class compiletime {
-//compile Time polymorphism
-    void Print() 
+            public class compiletime {
+      //compile Time polymorphism
+     void Print() 
     { 
         System.out.println("parent class"); 
-    } 
-} 
+              } 
+            } 
   
-class subclass1 extends compiletime { 
+        class subclass1 extends compiletime { 
   
     void Print() 
     { 
@@ -60,15 +61,15 @@ class subclass1 extends compiletime {
     } 
 } 
   
-class subclass2 extends compiletime { 
+          class subclass2 extends compiletime { 
   
     void Print() 
     { 
         System.out.println("St2"); 
     } 
-} 
-class TestPolymorphism3 { 
-    public static void main(String[] args) 
+          } 
+    class TestPolymorphism3 { 
+               public static void main(String[] args) 
     { 
   
     	compiletime a; 
@@ -79,12 +80,13 @@ class TestPolymorphism3 {
         a = new subclass2(); 
         a.Print(); 
     } 
-} 
+            } 
 
 Runtime Polymorphism
-package polymorphism;
 
-public class polymorphism {
+          package polymorphism;
+
+             public class polymorphism {
 
     //Run Time polymorphism
     static int Multiply(int a, int b) 
@@ -127,10 +129,11 @@ They may be reused in many way.
 disadvantages: It is difficult to implement in the code.
 
 Inheritance
-class Bicycle  
-{ 
-    public int gear; 
-    public int speed; 
+
+          class Bicycle  
+     { 
+               public int gear; 
+               public int speed; 
           
     public Bicycle(int gear, int speed) 
     { 
@@ -157,7 +160,7 @@ class Bicycle
 } 
   
  
-class MountainBike extends Bicycle  
+             class MountainBike extends Bicycle  
 { 
       
     public int seatHeight; 
@@ -185,16 +188,16 @@ class MountainBike extends Bicycle
       
 } 
   
-public class Test  
-{ 
-    public static void main(String args[])  
+             public class Test  
+          { 
+     public static void main(String args[])  
     { 
           
         MountainBike mb = new MountainBike(3, 100, 25); 
         System.out.println(mb.toString()); 
               
     } 
-} 
+         } 
 Description on inheritance
 ****Inheritance
 Principle: It help to write DRY (Don't repeat Yourself) code. A Child class to extented to another Class
@@ -204,9 +207,10 @@ Advantages: It help to do ot write same code multiple times
 disadvantages: In there Two classes are depended to each other
 
 Abstration
-abstract class Type  
-{ 
-    String color; 
+
+    abstract class Type  
+    { 
+      String color; 
       
     // these are abstract methods 
     abstract double area(); 
@@ -222,9 +226,9 @@ abstract class Type
     public String getColor() { 
         return color; 
     } 
-} 
-class Circle extends Type 
-{ 
+         } 
+        class Circle extends Type 
+           { 
     double radius; 
       
     public Circle(String color,double radius) { 
@@ -246,8 +250,8 @@ class Circle extends Type
                        "and area is : " + area(); 
     } 
       
-} 
-class Rectangle extends Type{ 
+                } 
+     class Rectangle extends Type{ 
   
     double length; 
     double width; 
@@ -271,9 +275,9 @@ class Rectangle extends Type{
                            "and area is : " + area(); 
     } 
   
-} 
-public class Test  
-{ 
+            } 
+      public class Test  
+          { 
     public static void main(String[] args) 
     { 
         Shape s1 = new Circle("Red", 2.2); 
@@ -282,7 +286,7 @@ public class Test
         System.out.println(s1.toString()); 
         System.out.println(s2.toString()); 
     } 
-} 
+              } 
 Description on Abstration
 ****Abstrations
 Principle: It select Specific Type Of data And Hide Other Things 
