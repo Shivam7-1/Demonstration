@@ -31,7 +31,7 @@ package encla;
     System.out.println(obj.getAge());
      }
 
-    }
+   }
 
 ****Encapsulation
 Principle: encapsulation in java is a process of Wrap[ping Code and data in a single unit. In 
