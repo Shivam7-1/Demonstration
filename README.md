@@ -24,9 +24,7 @@ public class Student {
   package encla;
 
 public class encapsulation {
-	
 	public static void main(String[] args) {
-	
 Student obj= new Student();
   obj.setAge(21);
   System.out.println(obj.getAge());
