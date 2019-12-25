@@ -34,7 +34,7 @@ package encla;
    }
 
 ****Encapsulation
-Principle: encapsulation in java is a process of Wrap[ping Code and data in a single unit. In 
+Principle: encapsulation in java is a process of Wrapping Code and data in a single unit. In 
 encapsulation one class is hidden from another class
 
 Advantages: It can provide the programmer to hide the inner classes and the user to give access only 
@@ -45,15 +45,17 @@ data store.
 
 package polymorphism;
 
-            public class compiletime {
-      //compile Time polymorphism
+Run time Polymorphism
+
+            public class Runtime {
+      //Run Time polymorphism
      void Print() 
     { 
         System.out.println("parent class"); 
               } 
             } 
   
-        class subclass1 extends compiletime { 
+        class subclass1 extends Runtime { 
   
     void Print() 
     { 
@@ -61,7 +63,7 @@ package polymorphism;
     } 
 } 
   
-          class subclass2 extends compiletime { 
+          class subclass2 extends Runtime { 
   
     void Print() 
     { 
@@ -72,7 +74,7 @@ package polymorphism;
                public static void main(String[] args) 
     { 
   
-    	compiletime a; 
+    	Runtime a; 
   
         a = new subclass1(); 
         a.Print(); 
@@ -82,13 +84,13 @@ package polymorphism;
     } 
             } 
 
-Runtime Polymorphism
+Compile Time Polymorphism
 
           package polymorphism;
 
              public class polymorphism {
 
-    //Run Time polymorphism
+    //Compile Time polymorphism
     static int Multiply(int a, int b) 
     { 
         return a * b; 
@@ -111,11 +113,11 @@ Runtime Polymorphism
 
 Description on Polymorphism
 ****polymorphism
-It is dived into two parts 1. Compile time Polymorphism 2.Runtime Polymorphism
+It is divided into two parts 1. Compile time Polymorphism  2.Runtime Polymorphism
 
-1. complile time Polymorphism: It is also known as static polymorphism. This type of polymorphism 
+1. compile time Polymorphism: It is also known as static polymorphism. This type of polymorphism 
 is achieved by function overloading.
- overloading is  When there are multiple functions with same name but different parameters then 
+  overloading is  When there are multiple functions with same name but different parameters then 
 these functions are said to be overloaded. Functions can be overloaded by change in number of 
 arguments 
 
@@ -200,11 +202,12 @@ Inheritance
          } 
 Description on inheritance
 ****Inheritance
-Principle: It help to write DRY (Don't repeat Yourself) code. A Child class to extented to another Class
+Principle: It help to write DRY (Don't repeat Yourself) code. A Child class to extented to another 
+Class. And this is called as inheritance.
 
-Advantages: It help to do ot write same code multiple times
+Advantages: It help to do not write same code multiple times
 
-disadvantages: In there Two classes are depended to each other
+disadvantages: In there Two classes are depended to each other.
 
 Abstration
 
@@ -289,7 +292,7 @@ Abstration
               } 
 Description on Abstration
 ****Abstrations
-Principle: It select Specific Type Of data And Hide Other Things 
+Principle: It select Specific Type Of data And Hide Other Things. 
 
-Advantage:1. We can do more coding with Writing less code 
-          2.Avoids code duplication and increases reusability
+Advantage: 1. We can do more coding with Writing less code 
+           2. Avoids code duplication and increases reusability
