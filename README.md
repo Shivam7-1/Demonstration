@@ -294,5 +294,5 @@ Description on Abstration
 ****Abstrations
 Principle: It select Specific Type Of data And Hide Other Things. 
 
-Advantage: 1. We can do more coding with Writing less code 
-           2. Avoids code duplication and increases reusability
+Advantage: 1. We can do more coding with Writing less code.
+           2. Avoids code duplication and increases reusability.
