@@ -1,6 +1,6 @@
 # Demonstration
  java code Demonstration on encapsulation, inheritance,  polymorphism,Abstraction
-Encapsulation Code Example and discription
+Encapsulation Code Example and discription.
 
 package encla;
 
