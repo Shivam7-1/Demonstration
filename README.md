@@ -119,7 +119,7 @@ It is divided into two parts 1. Compile time Polymorphism  2.Runtime Polymorphis
 is achieved by function overloading.
   overloading is  When there are multiple functions with same name but different parameters then 
 these functions are said to be overloaded. Functions can be overloaded by change in number of 
-arguments 
+arguments.
 
 2. Runtime Polymorphism: It is also known as Dynamic Method Dispatch. It is a process in which a 
 function call to the overridden method is resolved at Runtime. This type of polymorphism is 
