@@ -35,7 +35,7 @@ package encla;
 
 ****Encapsulation
 Principle: encapsulation in java is a process of Wrapping Code and data in a single unit. In 
-encapsulation one class is hidden from another class
+encapsulation one class is hidden from another class.
 
 Advantages: It can provide the programmer to hide the inner classes and the user to give access only 
 to the desired codes. It allows the programmer to not allow the user to know how variables and 
