@@ -33,7 +33,7 @@ package encla;
 
    }
 
-****Encapsulation
+***Encapsulation
 Principle: encapsulation in java is a process of Wrapping Code and data in a single unit. In 
 encapsulation one class is hidden from another class.
 
